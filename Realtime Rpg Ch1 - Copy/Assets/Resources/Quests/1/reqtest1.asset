@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c0a4973aa5b6445bd6ed14373a3838, type: 3}
+  m_Name: reqtest1
+  m_EditorClassIdentifier: 
+  reqsNotMetNode: 2
+  startQuest: ' I can start this quest by talking to ---- who is located in ----'
+  started: 0
+  completed: 0
+  questName: a lost soul
+  stepNum: 0
+  textIndex: 0
+  steplist: 0300000004000000
+  mytext: {fileID: 4900000, guid: c7a5574736d51a24b86306c8fda7ae29, type: 3}
+  startNode: 5
+  endNode: 22
+  reqs:
+  - {fileID: 11400000, guid: aaa311a9f7c91334880e6b6ce5350ae3, type: 2}
+  reqString: You Have To Complete HELP Dude.
+  nodeList: 1000000013000000
+  alternateNodeList: 12000000
+  npcDataStorage: []

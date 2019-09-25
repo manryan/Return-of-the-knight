@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c0a4973aa5b6445bd6ed14373a3838, type: 3}
+  m_Name: QuestThree1
+  m_EditorClassIdentifier: 
+  reqsNotMetNode: 0
+  startQuest: ' I can start this quest by talking to ---- who is located in ----'
+  started: 0
+  completed: 1
+  questName: NADA
+  stepNum: 2
+  textIndex: 5
+  steplist: 0300000004000000040000000400000004000000
+  mytext: {fileID: 4900000, guid: 115c9a3ebd98de84a81cb76baae99d08, type: 3}
+  startNode: 2
+  endNode: 21
+  reqs: []
+  reqString: 'There are no Prequisites for this quest :)
+
+'
+  nodeList: 080000000a0000000f0000001100000015000000
+  alternateNodeList: 0b0000000000000012000000
+  npcDataStorage:
+  - NpcName: npc1
+    stepNum: 3
+    nodeList: 020000000c000000070000000d000000
+    alternateNodeList: 030000000000000000000000
+    endNode: 14
+  - NpcName: npc2
+    stepNum: 3
+    nodeList: 030000000b000000070000000a000000
+    alternateNodeList: 0a000000000000000000000000000000
+    endNode: 10

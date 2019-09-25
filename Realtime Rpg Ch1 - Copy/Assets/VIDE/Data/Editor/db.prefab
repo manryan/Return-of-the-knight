@@ -1,0 +1,1009 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &146666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499132}
+  - component: {fileID: 11416270}
+  m_Layer: 0
+  m_Name: db
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11416270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268dc70b105993846a123be43345df63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileIndex: 14
+  skinIndex: 0
+  loadTag: 
+  startID: 0
+  curFocusID: 0
+  currentID: 70756
+  autosave: 1
+  previewPanning: 0
+  currentDiag: 14
+  locEdit: 0
+  pNodeID: 16
+  aNodeID: 2
+  S_playerDiags:
+  - commentCount: 1
+    s_comment:
+    - text: Hi There :)
+      extraData: ExtraData
+      inputSetIndex: 0
+      outputNodeIndex: -1
+      outActionIndex: 0
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 1
+    rect:
+      serializedVersion: 2
+      x: -360
+      y: -20
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: How's It Going?
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: 2
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: (Leave)
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 2
+    rect:
+      serializedVersion: 2
+      x: 390
+      y: 80
+      width: 349
+      height: 143
+    pTag: Player
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Meh.. Could Be Better
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 3
+    rect:
+      serializedVersion: 2
+      x: 830
+      y: 20
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Do You Have Any Quests For Me?
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: 5
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: How's It Going?
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: 4
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 81
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: (Leave)
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 5
+    rect:
+      serializedVersion: 2
+      x: 270
+      y: 300
+      width: 349
+      height: 165
+    pTag: Player
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Meh.. Could Be Better
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 6
+    rect:
+      serializedVersion: 2
+      x: 730
+      y: 490
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: As a matter of fact.. I do! I need help killing some dark souls
+      extraData: ExtraData
+      inputSetIndex: 5
+      outputNodeIndex: 6
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 7
+    rect:
+      serializedVersion: 2
+      x: 750
+      y: 310
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: Oooh.. Who?
+      extraData: ExtraData
+      inputSetIndex: 6
+      outputNodeIndex: 7
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: NO THANKS
+      extraData: ExtraData
+      inputSetIndex: 6
+      outputNodeIndex: 8
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 81
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 8
+    rect:
+      serializedVersion: 2
+      x: 1130
+      y: 340
+      width: 349
+      height: 143
+    pTag: Player
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Up for the challenge are ya? eh..
+      extraData: ExtraData
+      inputSetIndex: 7
+      outputNodeIndex: 9
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 9
+    rect:
+      serializedVersion: 2
+      x: 1530
+      y: 290
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Pussy!
+      extraData: ExtraData
+      inputSetIndex: 8
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 0
+    rect:
+      serializedVersion: 2
+      x: 1660
+      y: 500
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Yes, but what are dark souls?
+      extraData: ExtraData
+      inputSetIndex: 9
+      outputNodeIndex: -1
+      outActionIndex: 1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: No Sorry.
+      extraData: ExtraData
+      inputSetIndex: 9
+      outputNodeIndex: 10
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 81
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: (Leave)
+      extraData: ExtraData
+      inputSetIndex: 9
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 4
+    rect:
+      serializedVersion: 2
+      x: 1960
+      y: 210
+      width: 349
+      height: 165
+    pTag: Player
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Sigh... Another useless knight
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 12
+    rect:
+      serializedVersion: 2
+      x: 2270
+      y: 420
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Dark Souls are corrupted knights that have taken over the land
+      extraData: ExtraData
+      inputSetIndex: 11
+      outputNodeIndex: 12
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 13
+    rect:
+      serializedVersion: 2
+      x: 2620
+      y: 210
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: There are 2 knights far out towards the east that need to be killed.
+      extraData: ExtraData
+      inputSetIndex: 12
+      outputNodeIndex: 13
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 14
+    rect:
+      serializedVersion: 2
+      x: 2710
+      y: 410
+      width: 349
+      height: 141
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: I'll try my best
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 15
+    rect:
+      serializedVersion: 2
+      x: 3170
+      y: 270
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Have you killed the 2 dark souls yet?
+      extraData: ExtraData
+      inputSetIndex: 14
+      outputNodeIndex: -1
+      outActionIndex: 2
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 16
+    rect:
+      serializedVersion: 2
+      x: 2980
+      y: 620
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: No I haven't...
+      extraData: ExtraData
+      inputSetIndex: 15
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Umm where did you say they were at?
+      extraData: ExtraData
+      inputSetIndex: 15
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 18
+    rect:
+      serializedVersion: 2
+      x: 3710
+      y: 520
+      width: 349
+      height: 150
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Yes I have :)
+      extraData: ExtraData
+      inputSetIndex: 16
+      outputNodeIndex: -1
+      outActionIndex: 3
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 19
+    rect:
+      serializedVersion: 2
+      x: 3570
+      y: 770
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Thank you:) Heres a reward for your service
+      extraData: ExtraData
+      inputSetIndex: 17
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 21
+    rect:
+      serializedVersion: 2
+      x: 4820
+      y: 720
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Thanks for everything :)
+      extraData: ExtraData
+      inputSetIndex: 18
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 22
+    rect:
+      serializedVersion: 2
+      x: 4260
+      y: 1040
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  S_actionNodes:
+  - pauseHere: 0
+    gameObjectName: slayer
+    methodName: checkQuest
+    nameIndex: 4
+    methodIndex: 12
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - loadPage
+    - Start
+    - splitUp
+    - loadRightInfo
+    - checkReqs
+    - checkQuest
+    - startQuest
+    - incrementStepNum
+    - completeQuest
+    - fadeOut
+    nameOpts:
+    - '[No object]'
+    - quest 1 text
+    - New Sprite
+    - player
+    - slayer
+    - UIMANAGER
+    - TMP SubMeshUI [BPtypewriteStrikethrough SDF Material]
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 0
+      width: 200
+      height: 158
+    ID: 10
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: slayer
+    methodName: startQuest
+    nameIndex: 10
+    methodIndex: 17
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - loadPage
+    - check
+    - takeAway
+    - Incomplete
+    - checkIfKilled
+    - Start
+    - splitUp
+    - loadRightInfo
+    - checkReqs
+    - checkQuest
+    - startQuest
+    - incrementStepNum
+    - completeQuest
+    - openRewardPanel
+    - fadeOut
+    - checkReward
+    - get_velocity
+    nameOpts:
+    - '[No object]'
+    - Enemy (1)
+    - Enemy
+    - ObjectPooling
+    - Game Canvas
+    - firstnpc
+    - Canvas
+    - Player
+    - ItemManager
+    - Event TextBox
+    - slayer
+    - UIMANAGER
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2360
+      y: 160
+      width: 200
+      height: 158
+    ID: 11
+    outPlayerIndex: 11
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: slayer
+    methodName: checkIfKilled
+    nameIndex: 10
+    methodIndex: 11
+    paramIndex: 3
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - loadPage
+    - check
+    - takeAway
+    - Incomplete
+    - checkIfKilled
+    - Start
+    - splitUp
+    - loadRightInfo
+    - checkReqs
+    - checkQuest
+    - startQuest
+    - incrementStepNum
+    - completeQuest
+    - openRewardPanel
+    - fadeOut
+    - checkReward
+    - get_velocity
+    nameOpts:
+    - '[No object]'
+    - Enemy (1)
+    - Enemy
+    - ObjectPooling
+    - Game Canvas
+    - firstnpc
+    - Canvas
+    - Player
+    - ItemManager
+    - Event TextBox
+    - slayer
+    - UIMANAGER
+    param_bool: 0
+    param_string: 
+    param_int: 2
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 3360
+      y: 580
+      width: 200
+      height: 176
+    ID: 17
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: village bouundaries
+    methodName: moveCamMethod
+    nameIndex: 9
+    methodIndex: 3
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - disableOne
+    - fadeOutObject
+    - moveCamMethod
+    - moveCam
+    nameOpts:
+    - '[No object]'
+    - Player
+    - ObjectPooling
+    - Game Canvas
+    - firstnpc
+    - Canvas
+    - ItemManager
+    - Event TextBox
+    - slayer
+    - village bouundaries
+    - UIMANAGER
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 3970
+      y: 770
+      width: 200
+      height: 158
+    ID: 20
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: slayer
+    methodName: completeQuest
+    nameIndex: 8
+    methodIndex: 26
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - assignTheNpcs
+    - triggered
+    - checkStepNumber
+    - checkTimeSinceTriggered
+    - loadPage
+    - checkIfEnough
+    - takeAway
+    - Incomplete
+    - checkIfKilled
+    - Start
+    - checkifeventplayedoff
+    - splitUp
+    - loadRightInfo
+    - checkReqs
+    - checkQuest
+    - startQuest
+    - incrementStepNum
+    - incrementStepNumWithoutTextOrSaving
+    - loadMoreTextToJournalPage
+    - completeQuest
+    - openRewardPanel
+    - fadeOut
+    - checkReward
+    - get_velocity
+    nameOpts:
+    - '[No object]'
+    - Player
+    - ObjectPooling
+    - Game Canvas
+    - firstnpc
+    - Canvas
+    - ItemManager
+    - Event TextBox
+    - slayer
+    - village bouundaries
+    - UIMANAGER
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 4270
+      y: 770
+      width: 200
+      height: 158
+    ID: 23
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  S_selNodes: []
