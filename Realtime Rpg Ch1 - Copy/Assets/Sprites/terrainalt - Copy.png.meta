@@ -178,7 +178,7 @@ TextureImporter:
     second: edge2
   - first:
       213: -7172098171005631919
-    second: terrainalt - Copy_69
+    second: wateredge top
   - first:
       213: 6836888555467026290
     second: terrainalt - Copy_70
@@ -1355,7 +1355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrainalt - Copy_69
+      name: wateredge top
       rect:
         serializedVersion: 2
         x: 32

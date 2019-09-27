@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: wave left b6
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -5490471387742972225, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: 3603685577442218183, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: -731340578970352616, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: 2389156278644117759, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: -3162439760533892216, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: 2432479647753960602, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: -2199783872733025420, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: 4567269334165685142, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: 3069793915202991147, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  - {fileID: 6134771505249109297, guid: 93c1df2ebfa7bba45a11f092565ea26b, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0
